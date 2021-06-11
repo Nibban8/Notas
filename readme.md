@@ -3,7 +3,7 @@
 #### Instalar y usar CORS
 
 - Install-Package Microsoft.AspNet.WebApi.Cors -Version 5.2.7
-- EnableCorsAttribute cors = new EnableCorsAttribute("_", "_", "\*");
+- EnableCorsAttribute cors = new EnableCorsAttribute("\*", "\*", "\*");
 - config.EnableCors(cors);
 
 #### Pasos
